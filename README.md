@@ -7,3 +7,7 @@ Generates a graph of your moods for free users of daylio
 
 ### Note:
 This is only intended to work with the default moods
+
+# Example
+The following example was generated with fake data. I am okay
+![Example](example.jpg)
