@@ -96,6 +96,11 @@ ax.set_xlim(min_date - date_padding, max_date + date_padding)
 
 fig.autofmt_xdate()
 
+ax.text(0, 1, '*Average mood is a 3',
+        horizontalalignment='left',
+        verticalalignment='bottom',
+        transform=ax.transAxes)
+
 plt.subplots_adjust(bottom=0.15, top=0.9)
 plt.tight_layout()
 
